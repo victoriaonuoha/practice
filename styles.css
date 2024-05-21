@@ -1,0 +1,32 @@
+#prac {
+    height: 300px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+#prac div{
+    display: flex;
+    background-color: chartreuse;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
+    
+    /* height: 50px; */
+}
+/* #prac div:first-child{
+    flex-shrink: 2;
+    flex-grow: 1;
+} */
+/* #prac div:nth-child(2){
+    order: 2;
+}
+#prac div:nth-child(3){
+    order: 1;
+}
+#prac div:last-child{
+    order: 3;
+} */
+

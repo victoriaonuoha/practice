@@ -1,0 +1,46 @@
+.nav_bar {
+  text-align: center;
+  background-color: lightblue;
+  font-size: 50px;
+  font-weight: 600;
+  height: 4rem;
+}
+.flex_container {
+  display: flex;
+}
+.content {
+  display: flex;
+  width: 30%;
+  height: 20rem;
+  background-color: black;
+  color: bisque;
+}
+.Another_content {
+  /* display: flex; */
+  color: beige;
+  background-color: rgb(158, 158, 216);
+  width: 70%;
+  height: 20rem;
+  text-align: end;
+}
+.Another_content img{
+  width: 300px;
+  animation: move_img 4s alternate infinite;
+}
+@keyframes move_img {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+#transition_div {
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  transition: transform 5s;
+}
+#transition_div:hover {
+  transform: scale(1.2);
+}
